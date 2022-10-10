@@ -6,14 +6,28 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 50px;
+}
+.btn-area .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E4B363;
+    border: 2px solid #E4B363;
+    border-radius: 5px;
+    padding: 20px;
+}
+.btn-area  a:hover {
+    background-color: #A78D66;
 }
 .container-one { 
     display: flex; 
-    background-image: url("../img/pexels-guilherme-gonçalves-jaques-11788302.jpg");
+    /* background-image: url("../img/pexels-guilherme-gonçalves-jaques-11788302.jpg"); */
+    background-image: url("../img/the-city-lawyers-main-bg.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:center;
+    /* background-attachment: fixed;   */
+    background-position: center;
     width: 100vw;
+    height: 750px;
 }
 .container-default {
 
@@ -23,13 +37,25 @@ body {
     flex-direction: column; 
     max-width: 1180px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
-    font-size: 33px;
+    font-size: 47px;
     font-family: "Serif";
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: white;
+}
+.desc {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 17px;
+    margin:20px 0 ;
+    max-width: 80%;
+    letter-spacing: 2px;
 }
 
 /* Options */
@@ -37,9 +63,37 @@ section .options {
     display: flex;
     align-items: center;
     justify-content: end;
+    padding: 90px 20px;
 }
 section .options .options-itens {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+.options-itens-img,.options-itens-title,.options-itens-desc {
+    margin: 20px 10px;
+}
+.options-itens-title {
+    font-family:"Serif";
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.options-itens-desc {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*  Team Area */
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.team-itens {
+    margin-right: 20px;
+}
+.team-itens-img img {
+    object-fit: contain;
+    max-width: 360px;
+    max-height: 300px;
 }
