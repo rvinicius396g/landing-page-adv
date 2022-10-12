@@ -47,7 +47,7 @@ body {
     align-items: center;
 }
 
-.title, .services-title {
+.title, .services-title  {
     font-size: 47px;
     font-family: "Serif";
     text-transform: uppercase;
@@ -95,14 +95,18 @@ section .options .options-itens {
 
 }
 /* SERVICES SLOGAN */
+.gray-color {
+    background-color: rgba(98, 94, 91, 0.2);
+    padding: 50px;
+}
 .services {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 2px solid #E4B363;
-    padding: 60px;
+    padding: 20px;
 }
-.services-title {
+.services-title{
     font-size: 28px;   
     color: #595358;
     margin-bottom: 10px;
@@ -113,6 +117,22 @@ section .options .options-itens {
 }
 
 /*  Team Area */
+.team-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+}
+.team-title-img {
+    margin: 20px 10px; 
+   
+}
+.team-title-img  img {
+    max-width: 64px;
+    max-height: 64px;
+}
+
 .team {
     display: flex;
     flex-direction: row;
@@ -125,4 +145,79 @@ section .options .options-itens {
     object-fit: contain;
     max-width: 360px;
     max-height: 300px;
+}
+.team-itens-title, .team-itens-name {
+    text-align: center;
+    text-transform: uppercase;
+    color: #595358;
+    letter-spacing: 2px;
+}
+.team-itens-title {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 10px
+}
+.team-itens-name {
+    font-size: 26px;
+    font-family: "Serif";
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+/* Why us area */
+.why-us {
+    display: flex;
+    margin: 90px 0;
+}
+.why-us .why-us-itens {
+    margin-right: 20px;
+}
+.why-us-itens-title  {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #595358;
+    font-family: "Serif";
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 25px 0;
+}
+.why-us-itens-desc {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    /* justify-content: center; */
+    color: #595358;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.blue-color {
+    background-color: #2A3760 ;
+}
+.phrase-area {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.phrase-area p {
+    display: flex;
+    font-family: "Serif";
+    justify-content: center;
+    line-height: 1.3;
+    align-items: center;
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: 47px;
+    text-align: justify;
+}
+.phrase-area h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    color: #E4B363;
+    font-size: 17px;
+    text-align: center;
 }
