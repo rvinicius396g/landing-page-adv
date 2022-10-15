@@ -47,7 +47,7 @@ body {
     align-items: center;
 }
 
-.title, .services-title{
+.title, .services-title, .footer-title {
     font-size: 47px;
     font-family: "Serif";
     text-transform: uppercase;
@@ -55,7 +55,7 @@ body {
     letter-spacing: 5px;
     color: white;
 }
-.desc, .services-desc {
+.desc, .services-desc, .footer-desc {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
     font-size: 17px;
@@ -280,4 +280,19 @@ section .options .options-itens {
     border-radius: 100%;
     letter-spacing: 2px;
     color: #595358;
+}
+
+/*  FOOTER */
+.footer-title h1 {
+    color: #E4B363;
+    border-top: 1px solid #e4b363;
+    border-bottom: 1px solid #e4b363;
+    font-size: calc(75%);
+}
+.footer-desc {
+    color: #E4B363;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0;
 }
