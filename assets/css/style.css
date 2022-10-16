@@ -296,3 +296,59 @@ section .options .options-itens {
     font-weight: 300;
     margin: 0;
 }
+
+/*  Mobile  até 450px*/
+@media (max-width:450px) {
+    .title, .services-title, .footer-title {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .desc, .services-desc, .footer-desc {
+        font-size: 12px;
+
+    }
+    .btn-area {
+        margin: 15px;
+    }
+    section .options {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 20px 10px;
+        padding-bottom: 0;
+    }
+    .options-itens-img,.options-itens-title,.options-itens-desc {
+        margin: 10px 10px;
+    }
+    .team-itens {
+        margin-right: 0;
+    }
+    .team-itens-img img {
+        max-width: 100vw;
+    }
+
+    .why-us .why-us-itens:first-child { 
+        padding-right: 10px;
+        margin-right: 10px;
+        border-right: 1px solid #2a36604c;
+    }
+    .why-us-itens-title  {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .why-us-itens-desc {
+        font-size: 15px;
+    }
+
+    .phrase-area p {
+        font-size: 20px
+    }
+
+    .statistics-numbers { 
+        justify-content: center;
+    }
+
+    .statistics-numbers-itens {
+        margin: 25px;
+    }
+}
